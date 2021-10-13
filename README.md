@@ -13,7 +13,7 @@ Login and Registration system uses:
 
 ## Sign Up
 
-![Signup Screen](screenshots/signup_screen.jpg)
+![Signup Screen](screenshots/signup_screen.JPG)
 
 ### - MySQL Database Setup
 The database used is MySQL, so you'll need a MySQL database to create the users table.
@@ -51,7 +51,7 @@ User is redirected to `dashboard.php` if login is successful.
 
 ## Password Reset
 
-![Reset Password Screen](screenshots/reset_password_screen.jpg)
+![Reset Password Screen](screenshots/reset_password_screen.JPG)
 
 The logged in user can reset password for registered account.
 The reset password script is in `resetpassword.php`
