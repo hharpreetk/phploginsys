@@ -1,0 +1,33 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  color: #212529;
+}
+
+p {
+  color: #212529;
+}
+
+.p-md {
+  font-size: 1.25rem;
+}
+
+.p-lg {
+  font-size: 1.44rem;
+}
+
+.btn-md {
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .p-md {
+    font-size: 1.2rem;
+  }
+}

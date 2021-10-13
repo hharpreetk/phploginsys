@@ -1,0 +1,49 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100vh;
+}
+
+.form {
+  width: 100%;
+  max-width: 430px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10em;
+  margin-bottom: 6em;
+}
+
+.form .checkbox {
+  font-weight: 400;
+}
+
+.form .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media screen and (max-height: 600px) {
+  .form {
+    margin-top: 7em;
+    margin-bottom: 3em;
+  }
+}
